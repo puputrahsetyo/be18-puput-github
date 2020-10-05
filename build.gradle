@@ -17,3 +17,8 @@ hello.configure {
     }
 }
 
+hello.configure {
+    doLast {
+        println 'Hello All Planet'
+    }
+}
